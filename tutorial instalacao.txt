@@ -1,0 +1,19 @@
+Executar comando no CMD:
+pip install -r requirements.txt
+
+
+Gere um .env local
+python contrib/env_gen.py
+
+
+Sincronize a base de dados:
+python manage.py migrate
+
+
+Crie um usuário (Administrador do sistema):
+python manage.py createsuperuser
+
+
+Teste a instalação (http://localhost:8000 no navegador):
+python manage.py runserver
+
